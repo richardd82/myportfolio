@@ -1,2 +1,12 @@
-compnents/
-*.jsx
+**/*js
+index.js
+/src/compnents/**
+/src/compnents/about/About.jsx
+/src/compnents/contact/Contact.jsx
+/src/compnents/experience/Experience.jsx
+/src/compnents/footer/Footer.jsx
+/src/compnents/header/Header.jsx
+/src/compnents/nav/Nav.jsx
+/src/compnents/portfolio/Portfolio.jsx
+/src/compnents/services/Services.jsx
+/src/compnents/testimonials/Testimonials.jsx
