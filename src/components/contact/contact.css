@@ -36,7 +36,7 @@
 form{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.2rem;    
 }
 input, textarea{
     width: 100%;
@@ -46,6 +46,7 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    /* font-family: 'Poppins', sans-serif; */
 }
 /*----------Media Queries (MEDIUM DEVICES) ----------*/
 @media screen and (max-width: 1024px) {
