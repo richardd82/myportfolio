@@ -98,8 +98,10 @@ a:hover{
 }
 img{
     display: block;
-    width: 100%;
+    width: 124%;
     object-fit: cover;
+    margin-top: -20%;
+    margin-left: -10%;
 }
 
 /*----------Media Queries (MEDIUM DEVICES) ----------*/

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import {BsAward} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {AiOutlineCloudServer} from 'react-icons/ai'
