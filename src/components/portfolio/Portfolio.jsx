@@ -11,23 +11,23 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Title One',
-    github: 'https://github.com/richardd82',
-    demo: 'https://github.com/richardd82'
+    title: 'Food Recipes',
+    github: 'https://github.com/richardd82/PI-Food-RDiaz',
+    demo: 'https://food.richardd82.dev'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Title Two',
-    github: 'https://github.com/richardd82',
-    demo: 'https://github.com/richardd82'
+    title: 'Alien Street',
+    github: 'https://github.com/richardd82/PF-eCommerce',
+    demo: 'https://alienstreet.richardd82.dev'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Title Three',
-    github: 'https://github.com/richardd82',
-    demo: 'https://github.com/richardd82'
+    title: 'Trusty Tower',
+    github: '#',
+    demo: 'https://www.trustytower.com'
   },
   {
     id: 4,
