@@ -26,8 +26,8 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Trusty Tower',
-    github: '#',
-    demo: 'https://www.trustytower.com'
+    github: 'https://github.com/richardd82/trustytower',
+    demo: 'https://trusty.richardd82.dev/'
   },
   {
     id: 4,
