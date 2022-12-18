@@ -39,16 +39,16 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Title Five',
-    github: 'https://github.com/richardd82',
-    demo: 'https://github.com/richardd82'
+    title: 'Login to Segundamano.com.mx',
+    github: 'https://github.com/richardd82/login-segundamano',
+    demo: 'https://segundamano.richardd82.dev/'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Title Six',
-    github: 'https://github.com/richardd82',
-    demo: 'https://github.com/richardd82'
+    github: 'https://github.com/richardd82/trustytower',
+    demo: 'https://trusty.richardd82.dev/'
   },
 ]
 
