@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Title Six',
+    title: 'Trusty Tower',
     github: 'https://github.com/richardd82/trustytower',
     demo: 'https://trusty.richardd82.dev/'
   },
