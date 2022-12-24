@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Trusty Tower',
+    title: 'Passport Logins',
     github: 'https://github.com/richardd82/loginsWithPaspport',
     demo: 'http://passport.richardd82.dev/'
   },
