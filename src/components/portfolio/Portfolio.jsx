@@ -46,9 +46,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Passport Logins',
-    github: 'https://github.com/richardd82/loginsWithPaspport',
-    demo: 'http://passport.richardd82.dev/'
+    title: 'Plan21 YvY',
+    github: 'https://github.com/richardd82/plan21yvy',
+    demo: 'https://plan21.richardd82.dev/'
   },
 ]
 
