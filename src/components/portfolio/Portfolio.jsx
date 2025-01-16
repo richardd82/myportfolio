@@ -13,42 +13,42 @@ const data = [
     image: IMG1,
     title: 'Food Recipes',
     github: 'https://github.com/richardd82/PI-Food-RDiaz',
-    demo: 'https://food.richardd82.dev'
+    demo: 'https://food.richadd82.dev'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Alien Street',
     github: 'https://github.com/richardd82/PF-eCommerce',
-    demo: 'https://alienstreet.richardd82.dev'
+    demo: 'https://alienstreet.richadd82.dev'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Trusty Tower',
     github: 'https://github.com/richardd82/trustytower',
-    demo: 'https://trusty.richardd82.dev/'
+    demo: 'https://trusty.richadd82.dev/'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Weather App',
     github: 'https://github.com/richardd82/weather-app',
-    demo: 'https://richardd82.github.io/weather-app/'
+    demo: 'https://richadd82.github.io/weather-app/'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Login to Segundamano.com.mx',
     github: 'https://github.com/richardd82/login-segundamano',
-    demo: 'https://segundamano.richardd82.dev/'
+    demo: 'https://segundamano.richadd82.dev/'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Plan21 YvY',
     github: 'https://github.com/richardd82/plan21yvy',
-    demo: 'https://plan21.richardd82.dev/'
+    demo: 'https://plan21.richadd82.dev/'
   },
 ]
 
