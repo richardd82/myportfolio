@@ -32,9 +32,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Weather App',
-    github: 'https://github.com/richardd82/weather-app',
-    demo: 'https://richadd82.github.io/weather-app/'
+    title: 'Spoty - Clon',
+    github: 'https://github.com/richardd82/spoty-clon/',
+    demo: 'https://spoty.richadd82.dev/'
   },
   {
     id: 5,
