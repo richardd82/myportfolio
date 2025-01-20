@@ -41,6 +41,9 @@
 .experience__backend > .experience__content{
     align-items: center;
 }
+.someMore-text{
+  display: flex;
+}
 
 /*----------Media Queries (MEDIUM DEVICES) ----------*/
 @media screen and (max-width: 1024px) {

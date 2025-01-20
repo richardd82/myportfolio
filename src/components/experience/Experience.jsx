@@ -6,17 +6,26 @@ import {SiJquery} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
 import {SiRedux} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
+import { SiTypescript } from "react-icons/si";
+import { RiTailwindCssLine } from "react-icons/ri";
 import {BsBootstrap} from 'react-icons/bs'
 import {FaNode} from 'react-icons/fa'
 import {SiExpress} from 'react-icons/si'
-import {SiMicrosoftsqlserver} from 'react-icons/si'
+import { SiZod } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiBearSmileFill } from "react-icons/ri";
+// import {SiMicrosoftsqlserver} from 'react-icons/si'
+import { DiMsqlServer } from "react-icons/di";
 import {SiPostgresql} from 'react-icons/si'
 import {SiMysql} from 'react-icons/si'
 import {FaPhp} from 'react-icons/fa'
 import {SiPhpmyadmin} from 'react-icons/si'
-import {SiMicrosoftonedrive} from 'react-icons/si'
+// import {SiMicrosoftonedrive} from 'react-icons/si'
+import { MdOutlineCloudUpload } from "react-icons/md";
 import {SiApache} from 'react-icons/si'
 import {SiLinux} from 'react-icons/si'
+import { RiJavaLine } from "react-icons/ri";
+import { TfiMore } from "react-icons/tfi";
 // import {SiJava} from 'react-icons/si'
 
 const Experience = () => {
@@ -33,6 +42,13 @@ const Experience = () => {
               <SiJavascript size={30} className='experience__details-icon'/> 
               <div>
                 <h4 >JavaScirpt</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className='experience__detail'>
+              <SiTypescript size={30} className='experience__details-icon'/> 
+              <div>
+                <h4 >TypeScirpt</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -72,9 +88,37 @@ const Experience = () => {
               </div>
             </article>
             <article className='experience__detail'>
+              <RiTailwindCssLine size={30} className='experience__details-icon'/> 
+              <div>
+                <h4 >Tailwind</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className='experience__detail'>
               <BsBootstrap size={30} className='experience__details-icon'/> 
               <div>
                 <h4 >Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className='experience__detail'>
+              <SiZod size={30} className='experience__details-icon'/> 
+              <div>
+                <h4 >ZodJs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className='experience__detail'>
+              <RiNextjsFill size={30} className='experience__details-icon'/> 
+              <div>
+                <h4 >NextJs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className='experience__detail'>
+              <RiBearSmileFill size={30} className='experience__details-icon'/> 
+              <div>
+                <h4 >Zustand</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -101,6 +145,7 @@ const Experience = () => {
             </article>
             <article className='experience__detail'>
               {/* <SiMicrosoftsqlserver size={30} className='experience__details-icon'/>  */}
+              <DiMsqlServer size={30} className='experience__details-icon'/> 
               <h4>Ms-SQL</h4>
               <small className="text-light">Experienced</small>
             </article>
@@ -126,6 +171,7 @@ const Experience = () => {
             </article>
             <article className='experience__detail'>
               {/* <SiMicrosoftonedrive size={30} className='experience__details-icon'/>  */}
+              <MdOutlineCloudUpload size={30} className='experience__details-icon'/> 
               <h4>Microsoft IIS</h4>
               <small className="text-light">Experienced</small>
             </article>
@@ -140,6 +186,7 @@ const Experience = () => {
             </article>
             <article className='experience__detail'>
               {/* <SiJava size={30} className='experience__details-icon'/>  */}
+              <RiJavaLine size={30} className='experience__details-icon'/> 
               <h4>Java</h4>
             </article>
           </div>
