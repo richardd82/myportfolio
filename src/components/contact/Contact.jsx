@@ -26,8 +26,8 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlineMail size={40} className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>richardd82@gmail.com</h5>
-            <a href="mailto:richardd82@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
+            <h5>ricardo.diaz@richadd.dev</h5>
+            <a href="mailto:ricardo.diaz@richadd.dev" target='_blank' rel="noreferrer">Send a message</a>
           </article><article className="contact__option">
             <BsMessenger size={40} className='contact__option-icon'/>
             <h4>Messenger</h4>
