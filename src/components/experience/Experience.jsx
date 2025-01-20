@@ -25,7 +25,7 @@ import { MdOutlineCloudUpload } from "react-icons/md";
 import {SiApache} from 'react-icons/si'
 import {SiLinux} from 'react-icons/si'
 import { RiJavaLine } from "react-icons/ri";
-import { TfiMore } from "react-icons/tfi";
+// import { TfiMore } from "react-icons/tfi";
 // import {SiJava} from 'react-icons/si'
 
 const Experience = () => {
