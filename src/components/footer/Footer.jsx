@@ -7,22 +7,22 @@ import {FaTwitter} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Richardd82</a>
+      <a href="#home" className='footer__logo'>Richardd82</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" >Inicio</a></li>
+        <li><a href="#about">Acerca de mi</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        {/* <li><a href="#testimonials">Testimonials</a></li> */}
+        <li><a href="#contact">Contactame</a></li>
       </ul>      
 
       <div className="footer__socials">
-        <a href="https://facebook.com/richardd82" target='_blank'><FaFacebookF size={40}/></a>
-        <a href="https://www.instagram.com/richadd82.dev/" target='_blank'><GrInstagram size={40}/></a>
-        <a href="https://twitter.com/Richardd82_dev" target='_blank'><FaTwitter size={40}/></a>
+        <a href="https://facebook.com/richardd82" target='_blank' rel="noreferrer"><FaFacebookF size={40}/></a>
+        <a href="https://www.instagram.com/richadd82.dev/" target='_blank' rel="noreferrer"><GrInstagram size={40}/></a>
+        <a href="https://twitter.com/Richardd82_dev" target='_blank' rel="noreferrer"><FaTwitter size={40}/></a>
       </div>
 
       <div className="footer__copyright">

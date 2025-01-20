@@ -8,8 +8,8 @@ import {AiOutlineCloudServer} from 'react-icons/ai'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5>Conóceme</h5>
+      <h2>Acerca de mi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -22,26 +22,26 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BsAward className='about__icon' size={40}/>
-              <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <h5>Experiencia</h5>
+              <small>26+ años</small>
             </article>
             <article className="about__card">
               <FiUsers className='about__icon' size={40}/>
-              <h5>Clients</h5>
-              <small>30+ Worldwide</small>
+              <h5>Clientes</h5>
+              <small>30+ Nacionales y Extranjeros</small>
             </article>
             <article className="about__card">
               <AiOutlineCloudServer className='about__icon' size={40}/>
-              <h5>Projects</h5>
-              <small>30+ Completed</small>
+              <h5>Proyectos</h5>
+              <small>100+ realizados</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem asperiores nesciunt expedita accusantium, nisi magnam quidem, dolore aliquam minus totam rerum eligendi quo, exercitationem perspiciatis praesentium eaque dicta repellat delectus!
+          Soy Ricardo Andrés Díaz Bautista, Ingeniero en Sistemas Computacionales con una sólida experiencia en tecnología de la información. Me especializo como Fullstack Developer y consultor IT, combinando habilidades técnicas avanzadas en desarrollo web, infraestructura, redes y gestión de proyectos tecnológicos. Mi enfoque profesional se centra en la resolución de problemas, la innovación tecnológica y el cumplimiento de objetivos. Disfruto trabajar en equipo, liderar proyectos desafiantes y mantenerme actualizado con las últimas tendencias tecnológicas. Con un compromiso hacia la excelencia, ofrezco soluciones a medida que maximizan la eficiencia y la productividad de mis clientes.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Escribeme</a>
         </div>
       </div>
     </section>

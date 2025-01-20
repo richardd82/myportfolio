@@ -17,13 +17,13 @@ import {SiPhpmyadmin} from 'react-icons/si'
 import {SiMicrosoftonedrive} from 'react-icons/si'
 import {SiApache} from 'react-icons/si'
 import {SiLinux} from 'react-icons/si'
-import {SiJava} from 'react-icons/si'
+// import {SiJava} from 'react-icons/si'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Whats Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Las tecnologías con las que trabajo</h5>
+      <h2>Mis conocimientos como Fullstack Developer</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -139,7 +139,7 @@ const Experience = () => {
               <h4>Linux</h4>
             </article>
             <article className='experience__detail'>
-              <SiJava size={30} className='experience__details-icon'/> 
+              {/* <SiJava size={30} className='experience__details-icon'/>  */}
               <h4>Java</h4>
             </article>
           </div>

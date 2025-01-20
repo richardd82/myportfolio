@@ -27,18 +27,18 @@ const Contact = () => {
             <AiOutlineMail size={40} className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>richardd82@gmail.com</h5>
-            <a href="mailto:richardd82@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:richardd82@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article><article className="contact__option">
             <BsMessenger size={40} className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Ricardo Díaz</h5>
-            <a href="https://m.me/richardd82" target='_blank'>Send a message</a>
+            <a href="https://m.me/richardd82" target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <SiWhatsapp size={40} className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>(+52)5569790254</h5>
-            <a href="https://wa.me/+525569790254" target='_blank'>Send a message</a>
+            <a href="https://wa.me/+525569790254" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* End of Contact Option */}
