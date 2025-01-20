@@ -4,7 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {BsMessenger} from 'react-icons/bs'
 import {SiWhatsapp} from 'react-icons/si'
 import {useRef} from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
@@ -12,8 +12,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_30jnl8h', 'template_88gzg4p', form.current, 'jnwL7o8mue7Sjw-zw')
-    
+    emailjs.sendForm('service_30jnl8h', 'template_88gzg4p', form.current, 'p3ZjTgeLMPHatE6S_')
+    console.log(form.current)
     e.target.reset();
   };
   return (
@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
         {/* End of Contact Option */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="text" name='from_name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>

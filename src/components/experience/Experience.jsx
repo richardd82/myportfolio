@@ -100,7 +100,7 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
             </article>
             <article className='experience__detail'>
-              <SiMicrosoftsqlserver size={30} className='experience__details-icon'/> 
+              {/* <SiMicrosoftsqlserver size={30} className='experience__details-icon'/>  */}
               <h4>Ms-SQL</h4>
               <small className="text-light">Experienced</small>
             </article>
@@ -125,7 +125,7 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
             </article>
             <article className='experience__detail'>
-              <SiMicrosoftonedrive size={30} className='experience__details-icon'/> 
+              {/* <SiMicrosoftonedrive size={30} className='experience__details-icon'/>  */}
               <h4>Microsoft IIS</h4>
               <small className="text-light">Experienced</small>
             </article>
